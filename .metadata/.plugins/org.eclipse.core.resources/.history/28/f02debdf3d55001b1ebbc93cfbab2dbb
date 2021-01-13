@@ -18,7 +18,7 @@ public class LeftRotation {
         
         System.out.print("Introduzca nro de rotaciones: ");
         d =sc.nextInt();
-        int n=(d%parts.length);
+        int n=(d%parts.length)-1;
         
         for(int i = n; i < parts.length; i++){
         	System.out.print(parts[i]);
@@ -29,6 +29,7 @@ public class LeftRotation {
         	System.out.print(" ");
         	}
         
-		}
+		//System.out.println(parts[parts.length-1]);
+	}
 
 }

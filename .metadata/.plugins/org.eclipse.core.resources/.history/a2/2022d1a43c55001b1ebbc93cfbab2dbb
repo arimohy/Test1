@@ -18,17 +18,14 @@ public class LeftRotation {
         
         System.out.print("Introduzca nro de rotaciones: ");
         d =sc.nextInt();
-        int n=(d%parts.length);
+        /*
+        int [] valores=new 
         
-        for(int i = n; i < parts.length; i++){
-        	System.out.print(parts[i]);
-        	System.out.print(" ");
-        	}
-        for(int i = 0; i < n; i++){
-        	System.out.print(parts[i]);
-        	System.out.print(" ");
-        	}
+        for(int i = 0; i < valores.length; i++){
+        	   valores[i] = Integer.parseInt(Cantidad[i]);
+        	}*/
         
-		}
+		System.out.println(parts[parts.length-1]);
+	}
 
 }

@@ -29,6 +29,7 @@ public class LeftRotation {
         	System.out.print(" ");
         	}
         
-		}
+		//System.out.println(parts[parts.length-1]);
+	}
 
 }
